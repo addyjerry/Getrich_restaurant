@@ -1,0 +1,9 @@
+#header{
+    display: inline-flex;
+    gap: 3rem;
+}
+#log__area{
+    font-family: Open Sans;
+    padding:  4rem;
+    display: inline-flexbox;
+}
