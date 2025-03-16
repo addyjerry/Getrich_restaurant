@@ -1,0 +1,49 @@
+.ad{
+    display: flex;
+    gap: 2rem;
+    place-self: left;
+    padding: 0rem;
+
+
+}
+.ad p{
+    word-spacing: 2rem;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    margin-top: 22rem;
+}
+.about__card{
+    padding: 2rem;
+    display: flex;
+    gap: 5rem;
+}
+.text__area{
+    width: 453px;
+    padding-top: 6rem;
+}
+.text__area h1{
+    font-family:Cormorant Upright ;
+    font-size: 90px;
+    font-weight: 700;
+    color: rgba(220, 202, 135, 1);
+}
+.text__area h2{
+    font-family: Cormorant Upright;
+}
+.text__area img{
+    width: 61px;
+    height: 7px;
+}
+.text__area p{
+    font-weight: 400;
+    font-family: Open Sans;
+    letter-spacing: 4%;
+    color: rgba(170, 170, 170, 1);
+}
+.hero__section{
+    display: flex;
+}
+.image__area img{
+    width: 667px;
+    height: 756px;
+}

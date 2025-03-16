@@ -1,6 +1,10 @@
 #header{
     display: inline-flex;
-    gap: 3rem;
+    gap: 2rem;
+}
+#header img{
+    height: 6rem;
+    padding: 1rem;
 }
 #log__area{
     font-family: Open Sans;
