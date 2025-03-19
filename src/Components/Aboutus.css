@@ -1,15 +1,21 @@
 .about__us {
-    background-image: url('../assets/back.png');
+    background-image: url('../assets/images/back.png');
+ 
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    margin-bottom: -55rem;
+   
 }
 #golf{
-    place-self: center;
+   place-self: center;
    z-index: 1;
 }
 #golf img{
     width: 301px;
     height: 415px;
     padding: 10rem;
-   
+    position: static;   
 }
 .on__top{
     z-index: 2;
@@ -17,8 +23,8 @@
     display: inline-flex;
     gap: 5rem;
     padding: 10rem;
-    transform: translateY(-50rem);
    
+    transform: translateY(-90%);   
    
 }
 .left{
@@ -34,5 +40,5 @@
     color: rgba(170, 170, 170, 1);
 }
 .center img{
-    height: 703px;
+    height: 600px;
 }
