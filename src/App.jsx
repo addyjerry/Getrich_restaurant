@@ -6,6 +6,7 @@ import Special from './Components/Special'
 import Chef from './Components/Chef'
 import Video from './Components/Video'
 import Awards from './Components/Awards'
+import Gallery from './Components/Gallery'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
    <Chef/>
    <Video/>
    <Awards/>
+   <Gallery/>
 
    </>
   )
