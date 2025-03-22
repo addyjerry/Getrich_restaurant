@@ -1,7 +1,7 @@
 import React from 'react'
 import './Aboutus.css' 
-import golf from '../assets/G.png'
-import knife from '../assets/knife.png'
+import golf from '../assets/images/G.png'
+import knife from '../assets/images/knife.png'
 import Button from './Button'
 
 export const Aboutus = () => {
