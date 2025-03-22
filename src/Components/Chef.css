@@ -3,6 +3,8 @@
     margin-top: 2rem;
     gap: 3rem;
     background-image: url('../assets/images/back.png');
+    padding: 3rem;
+    place-content: center;
 }
 
 .chef__text img{
@@ -12,8 +14,8 @@
 
 .chef__text h1{
     font-family:Cormorant Upright ;
-    font-size: 90px;
-    font-weight: 700;
+    font-size: 64px;
+    font-weight: 600;
     color: rgba(220, 202, 135, 1);
 }
 .chef__text h2{
@@ -28,8 +30,8 @@
 }
 
 .chef__image img{
-    width: 647px;
-    height: 746px;
+    width: 634px;
+    height: 789px;
 }
 
 @media screen and (max-width:600px) {

@@ -1,15 +1,17 @@
 #header{
     display: inline-flex;
-    gap: 2rem;
+    gap: 6rem;
 }
 #header img{
-    height: 6rem;
+   width: 199px;
+   height: 57px;
     padding: 1rem;
 }
 #log__area{
     font-family: Open Sans;
-    padding:  4rem;
-    display: inline-flexbox;
+    padding:  2rem;
+    gap: 50px;
+    display: inline-flex;
 }
 
 @media screen and (max-width:600px) {
