@@ -14,7 +14,7 @@ const Footer = () => {
                <h1>Subscribe To Our Newsletter</h1>
                <p>And never miss latest Update</p>
                <input type="text" width={100} placeholder='Email Address'/>
-               <Button chidren={' View More' }/>
+               <Button chidren={' Subscribe' }/>
        </div>
        <div className="below">
           <div className="contact__us">
@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="social">
             <h1>GETRICHT</h1>
             <p>'The best way to find yourself is to lose yourself in the service of others</p>
-            <img src={key} alt="spoon" />
+            <img src={key} alt="spoon" /><br />
             <span><Facebook />
             <Twitter />
             <Instagram /></span>

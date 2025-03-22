@@ -47,3 +47,29 @@
     width: 667px;
     height: 756px;
 }
+
+@media screen and (max-width:600px) {
+    .about__card{
+        padding: 0rem;
+        display: block;
+        font-size: medium;
+    }
+    .ad{
+        display: none; }
+    .text__area{
+        width: 303px;
+        padding-top: 3rem;
+        
+    } 
+    .text__area h1{
+
+        font-size: 40px;
+        
+    }
+   
+    .image__area img{
+        width: 347px;
+        height: 346px;
+    }
+}
+

@@ -4,3 +4,8 @@
     border: 2px solid rgba(220, 202, 135, 1);
     place-self:center ;
 }
+
+@media screen and (max-width: 600px) {
+    .video img{
+        height: 200px; }
+}

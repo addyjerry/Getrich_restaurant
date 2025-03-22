@@ -31,4 +31,22 @@
     width: 647px;
     height: 746px;
 }
+
+@media screen and (max-width:600px) {
+    .chef{
+        display: block;
+        margin-top: 2rem;
+        text-align: center;
+     
+    } 
+    .chef__image img{
+        width: 347px;
+        height: 346px;
+    } 
+    .chef__text h1{
+        
+        font-size: 4rem;
+     
+    }
+}
   

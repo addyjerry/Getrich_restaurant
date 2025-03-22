@@ -23,7 +23,7 @@
 }
 .below{
     display: flex;
-    gap: 2rem;
+    gap: 12rem;
     text-align: center;
 }
 .contact__us h2{
@@ -79,4 +79,33 @@
 }
 .time p{
     color: w;
+}
+
+@media screen and (max-width:600px) {
+    .newsletter h1{
+
+        font-size: 2rem;    
+    }
+    .below{
+        display: block;
+       
+    }
+    .newsletter{
+        text-align: center;
+        padding: 0rem;
+        margin: 8px;
+    }
+    .newsletter input{
+        width: 20rem;
+        height: 2rem;
+        font-size: medium;
+        padding: 5px;
+       
+         margin: 5px;
+    }
+    .social h1{
+  
+        font-size: 3rem;
+ 
+    }
 }

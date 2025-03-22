@@ -11,3 +11,16 @@
     padding:  4rem;
     display: inline-flexbox;
 }
+
+@media screen and (max-width:600px) {
+    #header{
+        gap: 8rem;
+    }
+    #header img{
+        height: 2rem;
+        padding: 1rem;
+    }
+    #log__area{
+        display: none;
+    }
+}

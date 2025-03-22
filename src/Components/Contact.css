@@ -35,4 +35,23 @@
     height: 736px;
     padding: 5rem;
 }
+
+@media screen  and (max-width:600px){
+    .contact{
+        display: block;
+        text-align: center;
+    } 
+    .contact__text h1{
+        font-size: 4rem;
+    
+    }
+    .contact__image img{
+        width: 347px;
+        height: 336px;
+        padding: 0rem;
+    }
+    .contact__text{
+        padding: 0rem;
+    }
+}
   

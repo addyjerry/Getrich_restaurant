@@ -34,3 +34,24 @@
     width: 201px;
     height: 347px;
 }
+
+@media screen and (max-width:600px) {
+    .gallery{
+        display: block;
+        text-align: center;
+       
+    }
+    .gallery__text h1{
+        font-size: 4rem;
+   
+    }
+    .gallery__images{
+        display: block;
+      
+    }
+    
+    .gallery__images img{
+        width: 311px;
+        height: 347px;
+    }
+}

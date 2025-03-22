@@ -51,3 +51,21 @@
     height: 746px;
     
 }
+@media screen  and (max-width : 600px){
+    .award__back{
+        display:block;
+    }
+    .awards__text h1{
+         font-size: 4rem;
+        }
+        .groups{
+            display: block;
+           
+        }
+        .awards__image img{
+            margin-top: 5px;
+            padding: 0px;
+            width: 327px;
+            height: 346px;    
+        }    
+}
