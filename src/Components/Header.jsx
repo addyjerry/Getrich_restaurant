@@ -5,13 +5,13 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div id='header'>
+    <header id='header'>
         <img src={logo} alt="logo" id='logo'/>
         <Navbar/>
         <div id='log__area'>
             <span>Login / Registration </span> <span> |</span> <span>Book Table</span>
         </div>
-    </div>
+    </header>
   )
 }
 

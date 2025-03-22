@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import key from '../assets/images/spoon.png'
-import Button from './Button'
+import Button from '../Button'
 import jollof from '../assets/images/Food.png'
 
 export const About = () => {
