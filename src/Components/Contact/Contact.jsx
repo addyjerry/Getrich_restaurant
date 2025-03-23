@@ -19,7 +19,7 @@ const Contact = () => {
         <h2>Opeining Hours</h2>
         <p>Mon-Fri 10:00am - 02:00pm</p>
         <p>Sat-Sun 10:00am - 03:00pm</p>
-        <Button chidren={" Visit Us"} />
+        <Button>Visit Us</Button>
       </div>
       <div className="contact__image">
         <img src={drink} alt="chef" />

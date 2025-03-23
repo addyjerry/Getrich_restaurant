@@ -18,7 +18,7 @@ const Gallery = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt
           praesen
         </p>
-        <Button chidren={" View More"} />
+        <Button> View More</Button>
       </div>
       <div className="gallery__images">
         <img src={pack1} alt="pack" />

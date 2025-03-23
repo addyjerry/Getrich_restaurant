@@ -18,7 +18,7 @@ export const Aboutus = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum at
               dolore temporibus, eligendi nulla obcaecati .
             </p>
-            <Button chidren={"Know More"} />
+            <Button>Know More</Button>
           </div>
           <div className="center">
             <img src={knife} alt="knife" />
@@ -29,7 +29,7 @@ export const Aboutus = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
               rem praesentium unde accusantium nemo dignissimos{" "}
             </p>
-            <Button chidren={"Know More"} />
+            <Button>Know More</Button>
           </div>
         </div>
       </div>

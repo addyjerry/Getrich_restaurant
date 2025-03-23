@@ -43,7 +43,7 @@ const Special = () => {
         </div>
       </div>
       <div id="special__button">
-        <Button chidren={"Know More"} />
+        <Button>Know More</Button>
       </div>
     </div>
   );

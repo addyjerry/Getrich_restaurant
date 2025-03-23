@@ -5,7 +5,6 @@ import Button from "../Button/Button";
 import jollof from "../../assets/images/Food.png";
 
 export const About = () => {
-  const name = "Explore Menu";
   return (
     <div className="hero__section">
       <div className="ad">
@@ -20,7 +19,7 @@ export const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
             sunt praesen
           </p>
-          <Button chidren={name} />
+          <Button>Explore Menu</Button>
         </div>
         <div className="image__area">
           <img src={jollof} alt="food" />
