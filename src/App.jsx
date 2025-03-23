@@ -1,34 +1,30 @@
-import React from 'react'
-import Header from './Components/Header'
-import { About } from './Components/About'
-import { Aboutus } from './Components/Aboutus'
-import Special from './Components/Special'
-import Chef from './Components/Chef'
-import Video from './Components/Video'
-import Awards from './Components/Awards'
-import Gallery from './Components/Gallery'
-import Contact from './Components/Contact'
-import Footer from './Components/Footer'
-
+import React from "react";
+import Header from "./Components/Header/Header";
+import { About } from "./Components/About/About";
+import { Aboutus } from "./Components/Aboutus/Aboutus";
+import Special from "./Components/Special/Special";
+import Chef from "./Components/Chef/Chef";
+import Video from "./Components/Video/Video";
+import Awards from "./Components/Awards/Awards";
+import Gallery from "./Components/Gallery/Gallery";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
-
-
   return (
-   <>
-   <Header/>
-   <About/>
-   <Aboutus/>
-   <Special/>
-   <Chef/>
-   <Video/>
-   <Awards/>
-   <Gallery/>
-   <Contact/>
-   <Footer/>
-
-   </>
-  )
+    <>
+      <Header />
+      <About />
+      <Aboutus />
+      <Special />
+      <Chef />
+      <Video />
+      <Awards />
+      <Gallery />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
