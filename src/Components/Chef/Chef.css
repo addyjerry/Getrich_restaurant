@@ -1,12 +1,28 @@
 .chef {
-  display: flex;
   margin-top: 2rem;
-  gap: 3rem;
   background-image: url("../../assets/images/back.png");
+  display: flex;
+  place-content: center;
+  gap: 3rem;
+  position: relative;
+}
+.chef::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+.ontop {
+  z-index: 2;
+  display: flex;
   padding: 3rem;
   place-content: center;
+  gap: 3rem;
 }
-
 .chef__text img {
   width: 61px;
   height: 7px;
