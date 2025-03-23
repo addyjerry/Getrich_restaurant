@@ -4,15 +4,21 @@
     background-repeat: no-repeat;
     background-size: contain;
     display: block;
-    margin-bottom: -55rem;
+    height: 959px;
+
+
    
+}
+.features__about{
+    padding: 2rem;
+  
 }
 #golf{
    place-self: center;
    z-index: 1;
 }
 #golf img{
-    width: 301px;
+    width: 391px;
     height: 415px;
     padding: 10rem;
     position: static;   
@@ -22,9 +28,8 @@
     place-self: center;
     display: inline-flex;
     gap: 5rem;
-    padding: 10rem;
-   
-    transform: translateY(-90%);   
+   padding: 10rem;
+   transform: translateY(-84%);   
    
 }
 .left{
@@ -40,5 +45,43 @@
     color: rgba(170, 170, 170, 1);
 }
 .center img{
-    height: 600px;
+    height: 703px;
+    width: 84px;
+    padding: 2rem;
+}
+@media screen and (max-width:600px){
+   #golf img{
+    width: 150px;
+    height: 150px;
+    position: static;
+   }
+   .about__us{
+
+    background-image: none;
+    transform: translateY(-5%);
+    width: 90vw;
+
+   }
+  
+   .on__top{
+    z-index: 2;
+    place-self: center;
+    place-content: center;
+    display: inline-block;
+   text-align: center;
+    padding: 1rem;
+      transform: translateY(-85%);   
+   
+}
+
+.left h2{
+    font-family: Cormorant Upright;
+    color:  rgba(220, 202, 135, 1);
+    font-size: 2rem;
+}
+.center img{
+    height: 300px;
+}
+    
+    
 }

@@ -1,0 +1,57 @@
+.gallery{
+    display: flex;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+.gallery__text h1{
+    font-family:Cormorant Upright ;
+    font-size: 90px;
+    font-weight: 700;
+    color: rgba(220, 202, 135, 1);
+    margin-top: -8px;
+
+}
+.gallery__text h2{
+    font-family: Cormorant Upright;
+}
+.gallery__text img{
+    width: 61px;
+    height: 7px;
+}
+.gallery__text p{
+    font-weight: 400;
+    font-family: Open Sans;
+    letter-spacing: 4%;
+    color: rgba(170, 170, 170, 1);
+
+}
+.gallery__images{
+    display: flex;
+    gap: 5px;
+}
+
+.gallery__images img{
+    width: 201px;
+    height: 347px;
+}
+
+@media screen and (max-width:600px) {
+    .gallery{
+        display: block;
+        text-align: center;
+       
+    }
+    .gallery__text h1{
+        font-size: 4rem;
+   
+    }
+    .gallery__images{
+        display: block;
+      
+    }
+    
+    .gallery__images img{
+        width: 311px;
+        height: 347px;
+    }
+}

@@ -4,6 +4,11 @@ import { About } from './Components/About'
 import { Aboutus } from './Components/Aboutus'
 import Special from './Components/Special'
 import Chef from './Components/Chef'
+import Video from './Components/Video'
+import Awards from './Components/Awards'
+import Gallery from './Components/Gallery'
+import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 
 function App() {
@@ -16,6 +21,12 @@ function App() {
    <Aboutus/>
    <Special/>
    <Chef/>
+   <Video/>
+   <Awards/>
+   <Gallery/>
+   <Contact/>
+   <Footer/>
+
    </>
   )
 }

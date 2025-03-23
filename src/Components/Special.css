@@ -51,5 +51,35 @@
 #special__button{
     place-self: center;
     text-align: center;
+
+}
+
+@media screen and (max-width:600px) {
+    .Special h2{
+        text-align: center;
+        padding: 2px;
+        font-size: 2rem;
+    }
+    .Special h1{
+        font-size: 30px;
+        
+    }
+    .Special{
+        text-align: center;
+    }
+    .main__special{
+        display: block;
+        place-self: center;
+        place-content: center;
+    }
+    #line{
+        width: 29px;
+     
+    }
+    .special__center img{
+        width: 212px;
+        height: 260px;
+        padding: 2px;
+    }
     
 }
