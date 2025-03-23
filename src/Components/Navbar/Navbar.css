@@ -1,0 +1,50 @@
+.navbar {
+  padding: 1rem;
+}
+.navbar ul {
+  display: flex;
+  font-size: 16px;
+  font-family: Open Sans;
+  gap: 32px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: block;
+    padding: 1.3rem;
+  }
+  .shortcut {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    left: 0;
+    z-index: 9;
+  }
+  .shortcut ul {
+    display: block;
+  }
+  .shortcut ul li {
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+    list-style: none;
+  }
+  #close {
+    text-align: right;
+    place-self: right;
+    position: absolute;
+    left: 90vw;
+  }
+}

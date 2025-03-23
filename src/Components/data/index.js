@@ -7,8 +7,20 @@ export const Wines = [
     quantity: "Bottle",
   },
 
-  { id: 2, name: "Catena Malbee", price: 59, origin: "AR", quantity: "Bottle" },
-  { id: 3, name: "La Vieille Rose", price: 44, origin: "FR", quantity: "750" },
+  {
+    id: 2,
+    name: "Catena Malbee",
+    price: 59,
+    origin: "AR",
+    quantity: "Bottle",
+  },
+  {
+    id: 3,
+    name: "La Vieille Rose",
+    price: 44,
+    origin: "FR",
+    quantity: "750",
+  },
   {
     id: 4,
     name: "Rhino Pale Ale",
@@ -24,7 +36,6 @@ export const Wines = [
     quantity: "750 ml",
   },
 ];
-
 export const cocktails = [
   {
     id: 1,
