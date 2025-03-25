@@ -49,6 +49,13 @@
   width: 634px;
   height: 789px;
 }
+#sign {
+  width: 235px;
+  height: 83px;
+}
+#title {
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   .chef {
