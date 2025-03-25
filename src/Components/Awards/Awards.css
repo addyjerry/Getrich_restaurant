@@ -51,6 +51,10 @@
   height: 746px;
 }
 @media screen and (max-width: 600px) {
+  .awards {
+    place-content: center;
+    text-align: center;
+  }
   .award__back {
     display: block;
   }

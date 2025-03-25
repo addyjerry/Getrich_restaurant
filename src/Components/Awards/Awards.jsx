@@ -2,7 +2,6 @@ import React from "react";
 import "./Awards.css";
 import group from "../../assets/images/group.png";
 import key from "../../assets/images/spoon.png";
-
 import berries from "../../assets/images/berries.png";
 import AwardCard from "./AwardCard";
 import { laurels } from "../data/laurels";

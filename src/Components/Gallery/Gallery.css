@@ -1,7 +1,8 @@
 .gallery {
   display: flex;
-  overflow: hidden;
+  overflow: none;
   margin-top: 2rem;
+  gap: 3rem;
 }
 .gallery__text h1 {
   font-family: Cormorant Upright;

@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 600px) {
   #header {
-    gap: 8rem;
+    gap: 7rem;
   }
   #header img {
     height: 2.5rem;
