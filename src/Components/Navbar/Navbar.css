@@ -19,11 +19,16 @@
   .navbar {
     display: none;
   }
+
   .menu {
+    top: 0;
+    left: 0;
+    background-color: black;
     display: block;
     padding: 1.3rem;
   }
   .shortcut {
+    margin-top: -1.6rem;
     background-color: black;
     color: white;
     width: 100vw;
@@ -31,13 +36,15 @@
     position: fixed;
     left: 0;
     z-index: 9;
+    padding-top: 2rem;
   }
   .shortcut ul {
+    padding-top: 2rem;
     display: block;
   }
   .shortcut ul li {
     text-align: center;
-    font-size: large;
+    font-size: 2rem;
     padding: 1rem;
     list-style: none;
   }
@@ -45,6 +52,6 @@
     text-align: right;
     place-self: right;
     position: absolute;
-    left: 90vw;
+    left: 86vw;
   }
 }

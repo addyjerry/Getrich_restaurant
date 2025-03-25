@@ -10,11 +10,12 @@ a {
 }
 
 @media screen and (max-width: 600px) {
+  html,
   body {
     overflow-x: hidden;
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    max-width: fit-content;
+    max-width: 100%;
   }
 }
