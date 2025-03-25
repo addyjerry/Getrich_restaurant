@@ -38,7 +38,7 @@
   transform: translateY(-84%);
 }
 .left {
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 .left h2 {
   font-family: Cormorant Upright;
@@ -56,24 +56,25 @@
 }
 @media screen and (max-width: 600px) {
   #golf img {
-    width: 150px;
-    height: 150px;
-    position: static;
+    width: 250px;
+    height: 250px;
+    position: relative;
   }
   .about__us {
+    margin-top: 5rem;
     background-image: none;
-    transform: translateY(-5%);
+    transform: translateY(0%);
     width: 90vw;
+    padding: 0rem 1rem;
   }
 
   .on__top {
     z-index: 2;
-    place-self: center;
-    place-content: center;
+    place-self: left;
+    place-content: left;
     display: inline-block;
-    text-align: center;
-    padding: 1rem;
-    transform: translateY(-85%);
+    padding: 0rem;
+    transform: translateY(-65%);
   }
 
   .left h2 {
@@ -82,6 +83,12 @@
     font-size: 2rem;
   }
   .center img {
-    height: 300px;
+    height: 500px;
+    width: 4.2em;
+    align-self: center;
+    padding: 6rem 8rem;
+  }
+  .features__about {
+    padding: 0rem;
   }
 }

@@ -52,23 +52,28 @@
 
 @media screen and (max-width: 600px) {
   .about__card {
-    padding: 0rem;
+    padding: 0rem 1rem;
     display: block;
-    font-size: medium;
+    font-size: small;
   }
   .ad {
     display: none;
   }
   .text__area {
     width: 303px;
-    padding-top: 3rem;
+    padding-top: 1rem;
+    text-align: left;
   }
   .text__area h1 {
     font-size: 40px;
   }
+  .text__area img {
+    width: 31px;
+  }
 
   .image__area img {
-    width: 347px;
-    height: 346px;
+    width: 311px;
+    height: 347px;
+    padding: 3rem 0;
   }
 }

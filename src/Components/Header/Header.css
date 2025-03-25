@@ -19,7 +19,8 @@
     gap: 8rem;
   }
   #header img {
-    height: 2rem;
+    height: 2.5rem;
+    width: 8rem;
     padding: 1rem;
   }
   #log__area {
