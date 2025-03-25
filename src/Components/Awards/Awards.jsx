@@ -9,7 +9,7 @@ import { laurels } from "../data/laurels";
 
 const Awards = () => {
   return (
-    <div className=" awards">
+    <section className=" awards">
       <div className="award__back">
         <div className="first">
           <img src={group} alt="logo" />
@@ -34,7 +34,7 @@ const Awards = () => {
           <img src={berries} alt="berries" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

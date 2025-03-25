@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <section className="contact">
       <div className="contact__text">
         <h2>Contact</h2>
         <img src={key} alt="spoon" />
@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="contact__image">
         <img src={drink} alt="chef" />
       </div>
-    </div>
+    </section>
   );
 };
 

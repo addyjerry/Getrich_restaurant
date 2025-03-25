@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 
 export const Aboutus = () => {
   return (
-    <div className="about__us">
+    <section className="about__us" id="about_us">
       <div className="features__about">
         <div id="golf">
           <img src={golf} alt="backletter" />
@@ -33,6 +33,6 @@ export const Aboutus = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

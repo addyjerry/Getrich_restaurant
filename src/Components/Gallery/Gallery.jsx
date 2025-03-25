@@ -9,7 +9,7 @@ import pack4 from "../../assets/images/pack4.png";
 
 const Gallery = () => {
   return (
-    <div className="gallery">
+    <section className="gallery">
       <div className="gallery__text">
         <h2>Instagram</h2>
         <img src={key} alt="spoon" />
@@ -26,7 +26,7 @@ const Gallery = () => {
         <img src={pack3} alt="pack" />
         <img src={pack4} alt="pack" />
       </div>
-    </div>
+    </section>
   );
 };
 

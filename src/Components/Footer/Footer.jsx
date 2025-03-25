@@ -6,7 +6,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer" id="Contact">
       <div className="newsletter">
         <h2>Newsletter</h2>
         <img src={key} alt="spoon" />
@@ -44,7 +44,7 @@ const Footer = () => {
           <p>10:00am -3:00pm</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

@@ -5,7 +5,7 @@ import key from "../../assets/images/spoon.png";
 
 const Chef = () => {
   return (
-    <div className="chef">
+    <section className="chef" id="chef">
       <div className="ontop">
         <div className="chef__image">
           <img src={chef} alt="chef" />
@@ -21,7 +21,7 @@ const Chef = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

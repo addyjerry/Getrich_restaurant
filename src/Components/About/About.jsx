@@ -6,7 +6,7 @@ import jollof from "../../assets/images/Food.png";
 
 export const About = () => {
   return (
-    <div className="hero__section">
+    <section className="hero__section">
       <div className="ad">
         <p>#Bar #Getrich</p>
       </div>
@@ -25,6 +25,6 @@ export const About = () => {
           <img src={jollof} alt="food" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };

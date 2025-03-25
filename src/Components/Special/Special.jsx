@@ -8,7 +8,7 @@ import WineCard from "./WineCard";
 
 const Special = () => {
   return (
-    <div className="Special">
+    <section className="Special" id="Special">
       <h2>Menu That Fits Your Palatte </h2>
       <h1>Today's Special</h1>
       <div className="main__special">
@@ -45,7 +45,7 @@ const Special = () => {
       <div id="special__button">
         <Button>Know More</Button>
       </div>
-    </div>
+    </section>
   );
 };
 

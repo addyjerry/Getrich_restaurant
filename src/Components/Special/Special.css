@@ -46,7 +46,7 @@
 .special__center img {
   width: 412px;
   height: 660px;
-  padding: 8px;
+  padding: 1rem 8px;
 }
 #special__button {
   place-self: center;
@@ -56,14 +56,15 @@
 @media screen and (max-width: 600px) {
   .Special h2 {
     text-align: center;
-    padding: 2px;
-    font-size: 2rem;
+    padding: 0px;
+    font-size: small;
   }
   .Special h1 {
     font-size: 30px;
   }
   .Special {
     text-align: center;
+    padding: 5px 1rem;
   }
   .main__special {
     display: block;
