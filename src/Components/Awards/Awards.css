@@ -50,6 +50,31 @@
   width: 647px;
   height: 746px;
 }
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .awards {
+    place-content: center;
+    text-align: center;
+  }
+  .award__back {
+    display: block;
+  }
+  .awards__text h1 {
+    font-size: 2rem;
+  }
+  .groups {
+    display: block;
+  }
+  .awards__image img {
+    margin-top: 5px;
+    padding: 0px;
+    width: 327px;
+    height: 346px;
+  }
+  .laurel__group {
+    place-content: center;
+  }
+}
 @media screen and (max-width: 600px) {
   .awards {
     place-content: center;

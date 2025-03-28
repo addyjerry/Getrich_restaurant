@@ -49,6 +49,33 @@
   width: 667px;
   height: 736px;
 }
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .about__card {
+    padding: 0rem 1rem;
+    display: flex;
+    font-size: small;
+  }
+  .ad {
+    display: none;
+  }
+  .text__area {
+    width: 303px;
+    padding-top: 1rem;
+    text-align: left;
+  }
+  .text__area h1 {
+    font-size: 40px;
+  }
+  .text__area img {
+    width: 31px;
+  }
+
+  .image__area img {
+    width: 311px;
+    height: 347px;
+    padding: 3rem 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
   .about__card {

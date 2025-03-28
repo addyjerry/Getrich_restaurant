@@ -53,6 +53,33 @@
   text-align: center;
 }
 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .Special h2 {
+    text-align: center;
+    padding: 0px;
+    font-size: small;
+  }
+  .Special h1 {
+    font-size: 30px;
+  }
+  .Special {
+    margin-top: -27rem;
+  }
+  .main__special {
+    display: flex;
+    place-self: center;
+    place-content: center;
+  }
+  #line {
+    width: 29px;
+  }
+  .special__center img {
+    width: 212px;
+    height: 260px;
+    padding: 2px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .Special h2 {
     text-align: center;

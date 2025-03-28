@@ -34,6 +34,23 @@
   height: 347px;
 }
 
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .gallery {
+    display: block;
+    text-align: center;
+  }
+  .gallery__text h1 {
+    font-size: 2rem;
+  }
+  .gallery__images {
+    display: block;
+  }
+
+  .gallery__images img {
+    width: 311px;
+    height: 347px;
+  }
+}
 @media screen and (max-width: 600px) {
   .gallery {
     display: block;
