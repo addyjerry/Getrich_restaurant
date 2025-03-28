@@ -73,12 +73,12 @@
   color: w;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .newsletter h1 {
     font-size: 2rem;
   }
   .below {
-    display: block;
+    display: flex;
   }
   .newsletter {
     text-align: center;
