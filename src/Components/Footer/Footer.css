@@ -79,6 +79,8 @@
   }
   .below {
     display: flex;
+    gap: 3rem;
+    text-align: center;
   }
   .newsletter {
     text-align: center;
