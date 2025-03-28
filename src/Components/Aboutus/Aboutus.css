@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 600px) {
   .about__us {
-    margin-top: 5rem;
+    margin-top: 25rem;
     background-image: none;
     transform: translateY(0%);
     width: 90vw;
@@ -117,7 +117,7 @@
     place-content: left;
     display: inline-block;
     padding: 0rem;
-    transform: translateY(-65%);
+    transform: translateY(-55%);
   }
 
   .left h2 {
@@ -133,5 +133,12 @@
   }
   .features__about {
     padding: 0rem;
+  }
+  #golf img {
+    width: 211px;
+    height: 247px;
+    padding: 0rem;
+
+    position: static;
   }
 }
