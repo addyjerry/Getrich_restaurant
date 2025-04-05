@@ -3,7 +3,7 @@
   background-image: url("../../assets/images/back.png");
   display: flex;
   place-content: center;
-  gap: 3rem;
+  gap: 5px;
   position: relative;
 }
 .chef::before {
@@ -19,13 +19,15 @@
 .ontop {
   z-index: 2;
   display: flex;
-  padding: 3rem;
-  place-content: center;
-  gap: 3rem;
+  padding: 4rem 8rem;
+  place-items: center;
+  gap: 5px;
 }
 .chef__text img {
-  width: 61px;
-  height: 7px;
+  width: 41px;
+}
+.chef__text {
+  width: 50%;
 }
 
 .chef__text h1 {
@@ -33,6 +35,7 @@
   font-size: 64px;
   font-weight: 600;
   color: rgba(220, 202, 135, 1);
+  margin-top: -5px;
 }
 .chef__text h2 {
   font-family: Cormorant Upright;
@@ -44,10 +47,14 @@
   letter-spacing: 4%;
   color: rgba(170, 170, 170, 1);
 }
+.chef__text p img {
+  width: 40px;
+  height: auto;
+}
 
 .chef__image img {
-  width: 634px;
-  height: 789px;
+  width: 422px;
+  height: 465px;
 }
 #sign {
   width: 235px;
@@ -62,6 +69,7 @@
     display: block;
     margin-top: 2rem;
     text-align: center;
+    padding: 0 3rem;
   }
 
   .chef__image img {
@@ -74,7 +82,8 @@
   }
   .chef__text p {
     text-align: left;
-    width: 97vw;
+    margin-left: -5rem;
+    width: 60vw;
   }
   .ontop {
     z-index: 2;
@@ -104,11 +113,13 @@
     height: 347px;
   }
   .chef__text h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
   .chef__text p {
     text-align: left;
-    width: 97vw;
+    margin-left: -5rem;
+    width: 90vw;
   }
   .ontop {
     z-index: 2;

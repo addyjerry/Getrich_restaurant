@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 80%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
@@ -78,7 +78,6 @@
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .about__us {
     background-image: none;
-
     position: relative;
     display: block;
     height: 959px;
@@ -98,17 +97,25 @@
     width: 211px;
     height: 247px;
     padding: 0rem;
-    position: static;
+    position: absolute;
   }
   .on__top {
-    gap: 10px;
-    padding: 10rem 1px;
-    transform: translateY(-65%);
+    gap: 5px;
+    padding: 1rem 3rem;
+    transform: translateY(-35%);
   }
   .left {
     margin-top: 8rem;
+    text-align: left;
   }
   .left h2 {
+    font-size: 2rem;
+  }
+  .right {
+    margin-top: 8rem;
+    text-align: left;
+  }
+  .right h2 {
     font-size: 2rem;
   }
 
@@ -137,10 +144,21 @@
     place-content: left;
     display: inline-block;
     padding: 0rem;
-    transform: translateY(-55%);
+    transform: translateY(-35%);
+  }
+  .left {
+    text-align: left;
   }
 
   .left h2 {
+    font-family: Cormorant Upright;
+    color: rgba(220, 202, 135, 1);
+    font-size: 2rem;
+  }
+  .right {
+    text-align: left;
+  }
+  .right h2 {
     font-family: Cormorant Upright;
     color: rgba(220, 202, 135, 1);
     font-size: 2rem;
@@ -149,7 +167,7 @@
     height: 500px;
     width: 4.2em;
     align-self: center;
-    padding: 6rem 8rem;
+    padding: 3rem 8rem;
   }
   .features__about {
     padding: 0rem;
@@ -158,7 +176,6 @@
     width: 211px;
     height: 247px;
     padding: 0rem;
-
-    position: static;
+    position: absolute;
   }
 }

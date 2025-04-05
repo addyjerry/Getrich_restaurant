@@ -1,10 +1,12 @@
 .Special {
   font-family: Cormorant Upright;
   color: rgba(255, 255, 255, 1);
+  margin-top: -8rem;
 }
 .Special h2 {
   text-align: center;
   padding: 2px;
+  font-size: medium;
 }
 .Special h1 {
   font-size: 64px;
@@ -63,7 +65,9 @@
     font-size: 30px;
   }
   .Special {
-    margin-top: -27rem;
+    margin-top: -30rem;
+    padding: 0px 3rem;
+    font-size: small;
   }
   .main__special {
     display: flex;

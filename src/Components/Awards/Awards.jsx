@@ -9,10 +9,10 @@ import { laurels } from "../data/laurels";
 const Awards = () => {
   return (
     <section className=" awards">
+      <div className="first">
+        <img src={group} alt="logo" />
+      </div>
       <div className="award__back">
-        <div className="first">
-          <img src={group} alt="logo" />
-        </div>
         <div className="awards__text">
           <h2>Awards & Recognition</h2>
           <img src={key} alt="spoon" />

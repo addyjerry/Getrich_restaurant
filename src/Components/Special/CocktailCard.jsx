@@ -3,7 +3,7 @@ import React from "react";
 const CocktailCard = ({ name, price, origin, isCocktail }) => {
   return (
     <div>
-      {isCocktail || (
+      {!isCocktail && (
         <>
           <span>
             <h3 id="letters">{name}</h3>

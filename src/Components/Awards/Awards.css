@@ -1,16 +1,26 @@
 .awards {
   margin-top: 2rem;
   background-image: url("../assets/images/back.png");
+  gap: 2px;
+  justify-self: center;
+  display: flex;
+  margin-left: -10rem;
+}
+.first img {
+  width: 6rem;
+  padding: 5px;
+  margin-left: 8px;
 }
 .award__back {
   display: flex;
+  font-size: medium;
+  padding: 4rem 0rem;
 }
 .awards__text {
   margin-top: 3rem;
 }
 .awards__text h1 {
   font-family: Cormorant Upright;
-  font-size: 90px;
   font-weight: 700;
   color: rgba(220, 202, 135, 1);
 }
@@ -18,37 +28,38 @@
   font-family: Cormorant Upright;
 }
 .awards__text img {
-  width: 61px;
-  height: 7px;
+  width: 41px;
 }
 .awards__text p {
   font-weight: 400;
   font-family: Open Sans;
   letter-spacing: 4%;
   color: rgba(170, 170, 170, 1);
+  font-size: medium;
 }
 .laurel__group {
   display: flex;
-  gap: 2rem;
+  gap: 2px;
 }
 .laurel__group img {
   width: 5rem;
   height: 5rem;
+  margin-top: 15px;
 }
 .main__laurel h2 {
   font-family: Cormorant Upright;
-  font-size: large;
+
   color: rgba(220, 202, 135, 1);
 }
 .groups {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 16rem);
 }
 .awards__image img {
   margin-top: 5px;
   padding: 10px;
-  width: 647px;
-  height: 746px;
+  width: 422px;
+  height: 465px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -79,15 +90,19 @@
   .awards {
     place-content: center;
     text-align: center;
+    margin-top: -5rem;
+    font-size: medium;
   }
   .award__back {
     display: block;
   }
   .awards__text h1 {
-    font-size: 2rem;
+    margin-bottom: -8px;
   }
   .groups {
     display: block;
+    width: 70%;
+    place-self: center;
   }
   .awards__image img {
     margin-top: 5px;

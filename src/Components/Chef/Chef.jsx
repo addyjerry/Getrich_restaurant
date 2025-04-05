@@ -3,6 +3,7 @@ import "./Chef.css";
 import chef from "../../assets/images/chef.png";
 import key from "../../assets/images/spoon.png";
 import sign from "../../assets/images/sign.png";
+import quotes from "../../assets/images/quotes.png";
 
 const Chef = () => {
   return (
@@ -16,6 +17,7 @@ const Chef = () => {
           <img src={key} alt="spoon" />
           <h1>What We Believe In</h1>
           <p>
+            <img src={quotes} alt="quotes" />
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum culpa
             animi a quod rerum vero odit veritatis harum neque? Temporibus nisi
             voluptates cupiditate accusantium accusamus atque ea dicta exp

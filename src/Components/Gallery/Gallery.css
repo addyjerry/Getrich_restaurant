@@ -2,21 +2,22 @@
   display: flex;
   overflow: none;
   margin-top: 2rem;
+  font-size: medium;
   gap: 3rem;
+  padding: 0 3rem;
 }
 .gallery__text h1 {
   font-family: Cormorant Upright;
-  font-size: 90px;
   font-weight: 700;
   color: rgba(220, 202, 135, 1);
   margin-top: -8px;
 }
 .gallery__text h2 {
   font-family: Cormorant Upright;
+  margin-bottom: -5px;
 }
 .gallery__text img {
-  width: 61px;
-  height: 7px;
+  width: 41px;
 }
 .gallery__text p {
   font-weight: 400;

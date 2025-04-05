@@ -2,6 +2,8 @@
   display: inline-flex;
   gap: 5rem;
   padding: 8px 10px;
+  place-items: center;
+  justify-items: normal;
 }
 #header img {
   width: 128px;
@@ -16,7 +18,7 @@
 }
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   #header {
-    gap: 60vw;
+    gap: 67vw;
   }
   #header img {
     height: 2.5rem;
