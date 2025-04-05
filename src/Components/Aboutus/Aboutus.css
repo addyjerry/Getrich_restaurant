@@ -4,7 +4,9 @@
   background-size: contain;
   position: relative;
   display: block;
-  height: 959px;
+  height: 120vh;
+  padding: 10px 8px;
+  place-items: center;
 }
 .about__us::before {
   content: "";
@@ -21,25 +23,30 @@
 }
 #golf {
   place-self: center;
-  z-index: 1;
 }
 #golf img {
-  width: 391px;
-  height: 415px;
+  width: 288px;
+  height: 306px;
   padding: 10rem;
-  position: static;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -4%);
 }
 .on__top {
+  position: relative;
   z-index: 2;
   place-self: center;
   display: inline-flex;
   gap: 5rem;
   padding: 10rem;
-  transform: translateY(-84%);
+  transform: translateY(-18%);
 }
 .left {
-  margin-top: 1rem;
+  margin-top: 5rem;
+  text-align: right;
 }
+
 .left h2 {
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
@@ -49,10 +56,23 @@
   font-family: Open Sans;
   color: rgba(170, 170, 170, 1);
 }
+.right {
+  margin-top: 5rem;
+  text-align: left;
+}
+.right h2 {
+  font-family: Cormorant Upright;
+  color: rgba(220, 202, 135, 1);
+  font-size: 4rem;
+}
+.right p {
+  font-family: Open Sans;
+  color: rgba(170, 170, 170, 1);
+}
 .center img {
-  height: 703px;
-  width: 84px;
-  padding: 2rem;
+  height: 576px;
+  width: 70px;
+  padding: 0rem;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {

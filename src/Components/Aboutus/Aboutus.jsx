@@ -23,7 +23,7 @@ export const Aboutus = () => {
           <div className="center">
             <img src={knife} alt="knife" />
           </div>
-          <div className="left">
+          <div className="right">
             <h2>Our history</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum

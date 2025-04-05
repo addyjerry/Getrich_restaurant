@@ -1,11 +1,12 @@
 #header {
   display: inline-flex;
-  gap: 6rem;
+  gap: 5rem;
+  padding: 8px 10px;
 }
 #header img {
-  width: 199px;
-  height: 57px;
-  padding: 1rem;
+  width: 128px;
+  height: 37px;
+  padding: 1.5rem;
 }
 #log__area {
   font-family: Open Sans;
