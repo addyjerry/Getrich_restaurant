@@ -8,7 +8,7 @@
   display: flex;
   gap: 2rem;
   place-self: left;
-  margin-left: 3rem;
+  margin-left: -4rem;
   margin-right: -3rem;
 }
 .ad p {
@@ -20,7 +20,7 @@
 .about__card {
   padding: 2rem;
   display: flex;
-  gap: 9rem;
+  gap: 8rem;
 }
 .text__area {
   width: 353px;

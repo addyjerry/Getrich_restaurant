@@ -15,6 +15,7 @@
   display: flex;
   font-size: medium;
   padding: 4rem 0rem;
+  gap: 2rem;
 }
 .awards__text {
   margin-top: 3rem;

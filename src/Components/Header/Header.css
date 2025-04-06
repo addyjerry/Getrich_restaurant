@@ -1,6 +1,6 @@
 #header {
   display: inline-flex;
-  gap: 5rem;
+  gap: 3rem;
   padding: 8px 10px;
   place-items: center;
   justify-items: normal;
@@ -8,7 +8,7 @@
 #header img {
   width: 128px;
   height: 37px;
-  padding: 1.5rem;
+  padding: 1.5rem 3rem;
 }
 #log__area {
   font-family: Open Sans;

@@ -46,11 +46,18 @@
   margin-top: 5rem;
   text-align: right;
 }
+.left img {
+  width: 41px;
+  transform-origin: left;
+  transform: rotate(-180deg);
+  margin-right: -2rem;
+}
 
 .left h2 {
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
   font-size: 4rem;
+  margin-bottom: -7px;
 }
 .left p {
   font-family: Open Sans;
@@ -60,10 +67,14 @@
   margin-top: 5rem;
   text-align: left;
 }
+.right img {
+  width: 41px;
+}
 .right h2 {
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
   font-size: 4rem;
+  margin-bottom: -7px;
 }
 .right p {
   font-family: Open Sans;
@@ -111,6 +122,13 @@
   .left h2 {
     font-size: 2rem;
   }
+  .left img {
+    width: 31px;
+    margin-left: 7rem;
+  }
+  .right img {
+    width: 31px;
+  }
   .right {
     margin-top: 8rem;
     text-align: left;
@@ -154,6 +172,13 @@
     font-family: Cormorant Upright;
     color: rgba(220, 202, 135, 1);
     font-size: 2rem;
+  }
+  .left img {
+    width: 31px;
+    margin-left: 2rem;
+  }
+  .right img {
+    width: 31px;
   }
   .right {
     text-align: left;

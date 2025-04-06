@@ -2,6 +2,7 @@ import React from "react";
 import "./Aboutus.css";
 import golf from "../../assets/images/G.webp";
 import knife from "../../assets/images/knife.webp";
+import key from "../../assets/images/spoon.webp";
 import Button from "../Button/Button";
 
 export const Aboutus = () => {
@@ -14,6 +15,7 @@ export const Aboutus = () => {
         <div className="on__top">
           <div className="left">
             <h2>About Us</h2>
+            <img src={key} alt="spoon" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum at
               dolore temporibus, eligendi nulla obcaecati .
@@ -25,6 +27,7 @@ export const Aboutus = () => {
           </div>
           <div className="right">
             <h2>Our history</h2>
+            <img src={key} alt="spoon" />
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
               rem praesentium unde accusantium nemo dignissimos{" "}
