@@ -1,9 +1,9 @@
 import React from "react";
 import "./Chef.css";
-import chef from "../../assets/images/chef.png";
-import key from "../../assets/images/spoon.png";
-import sign from "../../assets/images/sign.png";
-import quotes from "../../assets/images/quotes.png";
+import chef from "../../assets/images/chef.webp";
+import key from "../../assets/images/spoon.webp";
+import sign from "../../assets/images/sign.webp";
+import quotes from "../../assets/images/quotes.webp";
 
 const Chef = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import key from "../../assets/images/spoon.png";
+import key from "../../assets/images/spoon.webp";
 import Button from "../Button/Button";
 import "./Gallery.css";
-import pack1 from "../../assets/images/pack1.png";
-import pack2 from "../../assets/images/pack2.png";
-import pack3 from "../../assets/images/pack3.png";
-import pack4 from "../../assets/images/pack4.png";
+import pack1 from "../../assets/images/pack1.webp";
+import pack2 from "../../assets/images/pack2.webp";
+import pack3 from "../../assets/images/pack3.webp";
+import pack4 from "../../assets/images/pack4.webp";
 
 const Gallery = () => {
   return (

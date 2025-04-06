@@ -1,6 +1,6 @@
 import React from "react";
 import "./Special.css";
-import bottle from "../../assets/images/bottle.png";
+import bottle from "../../assets/images/bottle.webp";
 import Button from "../Button/Button";
 import { Wines, cocktails } from "../data/index";
 import CocktailCard from "./CocktailCard";

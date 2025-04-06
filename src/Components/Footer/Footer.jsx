@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import key from "../../assets/images/spoon.png";
+import key from "../../assets/images/spoon.webp";
 import Button from "../Button/Button";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 

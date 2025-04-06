@@ -1,6 +1,6 @@
 .chef {
   margin-top: 2rem;
-  background-image: url("../../assets/images/back.png");
+  background-image: url("../../assets/images/back.webp");
   display: flex;
   place-content: center;
   gap: 5px;

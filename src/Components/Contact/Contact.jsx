@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
-import key from "../../assets/images/spoon.png";
-import drink from "../../assets/images/drink.png";
+import key from "../../assets/images/spoon.webp";
+import drink from "../../assets/images/drink.webp";
 import Button from "../Button/Button";
 
 const Contact = () => {

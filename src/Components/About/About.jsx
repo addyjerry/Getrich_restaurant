@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
-import key from "../../assets/images/spoon.png";
+import key from "../../assets/images/spoon.webp";
 import Button from "../Button/Button";
-import jollof from "../../assets/images/Food.png";
+import jollof from "../../assets/images/Food.webp";
 
 export const About = () => {
   return (
