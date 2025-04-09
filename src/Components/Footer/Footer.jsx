@@ -44,6 +44,7 @@ const Footer = () => {
           <p>10:00am -3:00pm</p>
         </div>
       </div>
+      <p id="cop"> © All rights reserved . Geritch 2025</p>
     </footer>
   );
 };

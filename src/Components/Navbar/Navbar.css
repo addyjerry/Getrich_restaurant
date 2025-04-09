@@ -67,6 +67,7 @@
     display: block;
     padding: 1.3rem;
   }
+
   .shortcut {
     margin-top: -2.6rem;
     background-color: black;
@@ -75,8 +76,23 @@
     height: 120vh;
     position: fixed;
     left: 0;
+    top: -100%;
     z-index: 9;
+    animation: slideDown 0.5s ease forwards;
     padding-top: 2rem;
+  }
+  @keyframes slideDown {
+    from {
+      top: -100%;
+      opacity: 0;
+    }
+    to {
+      top: 6%;
+      opacity: 1;
+    }
+  }
+  .shortcut .open {
+    transform: translateY(-10rem);
   }
   .shortcut ul {
     padding-top: 2rem;

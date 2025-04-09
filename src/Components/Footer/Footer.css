@@ -78,6 +78,9 @@
   margin-top: -7px;
   color: rgba(170, 170, 170, 1);
 }
+footer p {
+  text-align: center;
+}
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .newsletter h1 {

@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       <div className="menu">
         {menu ? (
-          <div className="shortcut">
+          <div className={`shortcut `}>
             <X onClick={handleMenu} id="close" />
             <ul>
               <li onClick={handleMenu}>

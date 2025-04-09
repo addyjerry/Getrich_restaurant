@@ -40,6 +40,18 @@
 }
 .text__area img {
   width: 41px;
+  animation: spoon-slide 1s ease forwards;
+  position: relative;
+}
+@keyframes spoon-slide {
+  from {
+    left: -100%;
+    opacity: 0;
+  }
+  to {
+    left: 0rem;
+    opacity: 1;
+  }
 }
 .text__area p {
   font-weight: 400;
