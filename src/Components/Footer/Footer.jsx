@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="top">
         <a href="#header">
-          <span>|</span>
+          <h5>|</h5>
         </a>
         <p>Top</p>
       </div>

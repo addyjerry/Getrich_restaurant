@@ -30,7 +30,7 @@ export const About = () => {
           </div>
           <div className="scroll">
             <a href="#Contact">
-              <span>|</span>
+              <h5>|</h5>
             </a>
             <p>Scroll</p>
           </div>

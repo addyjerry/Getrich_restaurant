@@ -77,9 +77,10 @@
   position: relative;
   right: -43%;
 }
-.top span {
+.top h5 {
   background-color: rgba(220, 202, 135, 1);
-  height: 20rem;
+  height: 5rem;
+  margin-top: -3rem;
   width: 2px;
   margin-left: 1rem;
 }

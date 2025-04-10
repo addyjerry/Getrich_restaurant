@@ -83,11 +83,13 @@
   display: block;
   color: rgba(220, 202, 135, 1);
   font-size: large;
+  margin-top: -3rem;
 }
-.scroll span {
+.scroll h5 {
   background-color: rgba(220, 202, 135, 1);
-  height: 20rem;
+  height: 5rem;
   width: 2px;
+
   margin-left: 1rem;
 }
 @media screen and (min-width: 601px) and (max-width: 1024px) {
