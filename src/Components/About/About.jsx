@@ -6,7 +6,7 @@ import jollof from "../../assets/images/Food.webp";
 
 export const About = () => {
   return (
-    <section className="hero__section">
+    <section className="hero__section" id="hero">
       <div className="ad">
         <p>#Bar #Getrich</p>
       </div>
@@ -23,6 +23,17 @@ export const About = () => {
         </div>
         <div className="image__area">
           <img src={jollof} alt="food" />
+        </div>
+        <div className="others">
+          <div className="undernum">
+            <p>01 - 02 03 05</p>
+          </div>
+          <div className="scroll">
+            <a href="#Contact">
+              <span>|</span>
+            </a>
+            <p>Scroll</p>
+          </div>
         </div>
       </div>
     </section>

@@ -3,13 +3,14 @@
   place-content: center;
   margin: 3rem 0;
   padding: 8px 10px;
+  gap: 1rem;
 }
 .ad {
   display: flex;
   gap: 2rem;
   place-self: left;
-  margin-left: -4rem;
-  margin-right: -3rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .ad p {
   word-spacing: 2rem;
@@ -67,12 +68,37 @@
   width: 422px;
   height: 465px;
 }
+.others {
+  display: flex;
+  z-index: 20;
+  position: relative;
+  gap: 25rem;
+  margin-right: -34rem;
+  transform: translate(-35rem, 110%);
+}
+.undernum {
+  color: white;
+}
+.scroll {
+  display: block;
+  color: rgba(220, 202, 135, 1);
+  font-size: large;
+}
+.scroll span {
+  background-color: rgba(220, 202, 135, 1);
+  height: 20rem;
+  width: 2px;
+  margin-left: 1rem;
+}
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .about__card {
     padding: 0rem 3rem;
     display: flex;
     font-size: small;
     gap: 4rem;
+  }
+  .others {
+    display: none;
   }
   .ad {
     display: none;
@@ -121,5 +147,8 @@
     width: 311px;
     height: 347px;
     padding: 3rem 0;
+  }
+  .others {
+    display: none;
   }
 }

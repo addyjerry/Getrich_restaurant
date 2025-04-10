@@ -15,6 +15,12 @@ const Footer = () => {
         <input type="text" width={100} placeholder="Email Address" />
         <Button>Subscribe</Button>
       </div>
+      <div className="top">
+        <a href="#header">
+          <span>|</span>
+        </a>
+        <p>Top</p>
+      </div>
       <div className="below">
         <div className="contact__us">
           <h2>Contact Us</h2>
