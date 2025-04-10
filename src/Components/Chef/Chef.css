@@ -104,6 +104,7 @@
     display: block;
     margin-top: 2rem;
     text-align: center;
+    width: 99vw;
   }
   .chef::before {
     display: none;
