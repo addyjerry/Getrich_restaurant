@@ -71,7 +71,7 @@
 }
 .top {
   display: block;
-  color: rgb(117, 105, 62);
+  color: rgba(220, 202, 135, 1);
   font-size: large;
   place-self: center;
   position: relative;
