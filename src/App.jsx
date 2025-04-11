@@ -8,6 +8,7 @@ import Video from "./Components/Video/Video";
 import Awards from "./Components/Awards/Awards";
 import Gallery from "./Components/Gallery/Gallery";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Video />
       <Awards />
       <Gallery />
+      <Contact />
       <Footer />
     </>
   );

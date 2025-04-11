@@ -51,8 +51,9 @@
 }
 .special__center img {
   width: 412px;
-  height: 660px;
-  padding: 1rem 8px;
+  height: 600px;
+  padding: 0px 8px;
+  margin-top: -2rem;
 }
 #special__button {
   place-self: center;

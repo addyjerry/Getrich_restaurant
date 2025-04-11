@@ -4,13 +4,14 @@
   margin: 3rem 0;
   padding: 8px 10px;
   gap: 1rem;
+  margin-bottom: 14rem;
 }
 .ad {
   display: flex;
   gap: 2rem;
   place-self: left;
-  margin-left: 0rem;
-  margin-right: 0rem;
+  margin-left: 1rem;
+  margin-right: -3rem;
 }
 .ad p {
   word-spacing: 2rem;
