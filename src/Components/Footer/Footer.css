@@ -71,14 +71,15 @@
 }
 .top {
   display: block;
-  color: rgba(220, 202, 135, 1);
+  color: rgb(117, 105, 62);
   font-size: large;
   place-self: center;
   position: relative;
-  right: -46%;
+  right: -50%;
+  margin-left: 2rem;
 }
 .top h5 {
-  background-color: rgba(220, 202, 135, 1);
+  background-color: rgb(161, 144, 81);
   height: 5rem;
   margin-top: -5rem;
   width: 2px;
