@@ -114,6 +114,7 @@
     margin-left: 7px;
     font-size: medium;
     background-image: none;
+    padding: 0 1rem;
   }
   .awards::before {
     display: none;
@@ -132,7 +133,7 @@
   .awards__image img {
     margin-top: 5px;
     padding: 0px;
-    width: 327px;
+    width: 307px;
     height: 346px;
   }
   .first img {

@@ -5,11 +5,13 @@ import Button from "../Button/Button";
 import { Wines, cocktails } from "../data/index";
 import CocktailCard from "./CocktailCard";
 import WineCard from "./WineCard";
+import key from "../../assets/images/spoon.webp";
 
 const Special = () => {
   return (
     <section className="Special" id="Special">
       <h2>Menu That Fits Your Palatte </h2>
+      <img src={key} alt="spoon" id="spoon" />
       <h1>Today's Special</h1>
       <div className="main__special">
         <div className="special__side">

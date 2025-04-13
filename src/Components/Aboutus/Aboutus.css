@@ -1,10 +1,8 @@
 .about__us {
   background-image: url("../../assets/images/back.webp");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto;
   position: relative;
-  display: block;
-  height: 120vh;
   padding: 10px 8px;
   place-items: center;
 }
@@ -14,7 +12,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
@@ -33,14 +31,13 @@
   left: 50%;
   transform: translate(-50%, -4%);
 }
-.on__top {
+.about__us .on__top {
   position: relative;
   z-index: 2;
   place-self: center;
   display: inline-flex;
   gap: 5rem;
-  padding: 10rem;
-  transform: translateY(-18%);
+  padding: 2rem 8rem;
 }
 .left {
   margin-top: 5rem;
@@ -57,7 +54,7 @@
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
   font-size: 4rem;
-  margin-bottom: -7px;
+  margin-bottom: -5px;
 }
 .left p {
   font-family: Open Sans;
@@ -74,7 +71,7 @@
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
   font-size: 4rem;
-  margin-bottom: -7px;
+  margin-bottom: -5px;
 }
 .right p {
   font-family: Open Sans;
@@ -110,8 +107,8 @@
     padding: 0rem;
     position: absolute;
   }
-  .on__top {
-    gap: 5px;
+  .about__us .on__top {
+    gap: 0px;
     padding: 1rem 3rem;
     transform: translateY(-35%);
   }
@@ -153,19 +150,22 @@
     background-image: none;
     transform: translateY(0%);
     width: 90vw;
-    padding: 0rem 1rem;
+    padding: 0rem 2rem;
+    margin-bottom: -19rem;
   }
-
-  .on__top {
+  .about__us::before {
+    display: none;
+  }
+  .about__us .on__top {
     z-index: 2;
-    place-self: left;
-    place-content: left;
     display: inline-block;
-    padding: 0rem;
-    transform: translateY(-35%);
+    padding: 0rem 13rem;
+    transform: translateY(-40%);
+    margin-left: -1.3rem;
   }
   .left {
-    text-align: left;
+    text-align: center;
+    margin-bottom: 3rem;
   }
 
   .left h2 {
@@ -181,7 +181,7 @@
     width: 31px;
   }
   .right {
-    text-align: left;
+    text-align: center;
   }
   .right h2 {
     font-family: Cormorant Upright;
@@ -192,7 +192,7 @@
     height: 500px;
     width: 4.2em;
     align-self: center;
-    padding: 3rem 8rem;
+    padding: 0rem 8rem;
   }
   .features__about {
     padding: 0rem;

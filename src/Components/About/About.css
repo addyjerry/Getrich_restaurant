@@ -4,7 +4,7 @@
   margin: 3rem 0;
   padding: 8px 10px;
   gap: 1rem;
-  margin-bottom: 14rem;
+  margin-bottom: 8rem;
 }
 .ad {
   display: flex;
@@ -30,7 +30,7 @@
 }
 .text__area h1 {
   font-family: Cormorant Upright;
-  font-size: 72px;
+  font-size: 62px;
   line-height: 130%;
   font-weight: 700;
   color: rgba(220, 202, 135, 1);
@@ -79,15 +79,16 @@
 }
 .undernum {
   color: white;
+  font-size: small;
 }
 .scroll {
   display: block;
-  color: rgba(220, 202, 135, 1);
-  font-size: large;
+  color: rgb(146, 128, 64);
+  font-size: medium;
   margin-top: -7rem;
 }
 .scroll h5 {
-  background-color: rgba(220, 202, 135, 1);
+  background-color: rgb(85, 71, 21);
   height: 5rem;
   width: 2px;
   margin-left: 1rem;

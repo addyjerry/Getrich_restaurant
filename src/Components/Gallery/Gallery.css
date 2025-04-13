@@ -62,6 +62,7 @@
   }
   .gallery__images {
     display: block;
+    padding: 5rem 0;
   }
 
   .gallery__images img {

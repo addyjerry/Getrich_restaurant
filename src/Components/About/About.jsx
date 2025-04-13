@@ -17,7 +17,7 @@ export const About = () => {
           <h1>The Key To Fine Dining</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            sunt praesen
+            sunt praesen Lorem ipsum dolor sit amet consectetur adipisicing
           </p>
           <Button>Explore Menu</Button>
         </div>

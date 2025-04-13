@@ -21,10 +21,11 @@
 }
 .below {
   display: flex;
-  gap: 5rem;
+  gap: 3.5rem;
   text-align: center;
   place-content: center;
   font-size: medium;
+  padding: 0 5rem;
 }
 .contact__us h2 {
   font-family: Cormorant Upright;
@@ -41,15 +42,16 @@
   text-align: center;
   background-color: black;
   border: 1px solid rgb(95, 95, 95);
-  padding: 5rem;
+  padding: 5rem 9rem;
   place-self: center;
-  margin: 0 4rem;
+  margin: 0 2rem;
 }
 .newsletter input {
-  width: 30rem;
+  width: 20rem;
   height: 8px;
-  font-size: larger;
-  padding: 1rem;
+  font-size: large;
+
+  padding: 13px;
   background-color: black;
   color: white;
   margin: 3px;
@@ -71,7 +73,7 @@
 }
 .top {
   display: block;
-  color: rgba(220, 202, 135, 1);
+  color: rgb(129, 108, 33);
   font-size: large;
   place-self: center;
   position: relative;
@@ -79,7 +81,7 @@
   margin-left: 2rem;
 }
 .top h5 {
-  background-color: rgb(161, 144, 81);
+  background-color: rgb(99, 81, 15);
   height: 5rem;
   margin-top: -5rem;
   width: 2px;
@@ -119,7 +121,10 @@ footer::before {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
-
+#cop {
+  text-align: center;
+  margin-left: 7rem;
+}
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .newsletter h1 {
     font-size: 2rem;
@@ -154,7 +159,7 @@ footer::before {
 }
 @media screen and (max-width: 600px) {
   .newsletter h1 {
-    font-size: 2rem;
+    font-size: medium;
   }
   .below {
     display: block;
@@ -163,10 +168,10 @@ footer::before {
   .newsletter {
     text-align: center;
     padding: 0rem;
-    margin: 8px;
+    margin: 38px;
   }
   .newsletter input {
-    width: 20rem;
+    width: 17rem;
     height: 2rem;
     font-size: medium;
     padding: 5px;
@@ -188,8 +193,16 @@ footer::before {
   footer {
     margin-top: 2rem;
     margin-bottom: 3rem;
+    padding: 1rem 3rem;
   }
   .top {
     display: none;
+  }
+  footer .ontop {
+    padding: 0 1rem;
+  }
+  #cop {
+    text-align: center;
+    margin-left: 0rem;
   }
 }

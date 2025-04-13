@@ -102,9 +102,10 @@
 @media screen and (max-width: 600px) {
   .chef {
     display: block;
-    margin-top: 2rem;
+    margin-top: 0rem;
     text-align: center;
     width: 100vw;
+    padding: 2rem 0;
   }
   .chef::before {
     display: none;
@@ -119,8 +120,8 @@
   }
   .chef__text p {
     text-align: left;
-    margin-left: -5rem;
-    width: 90vw;
+    margin-left: -4rem;
+    width: 84vw;
   }
   .ontop {
     z-index: 2;

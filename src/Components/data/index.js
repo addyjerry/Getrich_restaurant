@@ -1,7 +1,7 @@
 export const Wines = [
   {
     id: 1,
-    name: "Chapel Hill Shiraz",
+    name: "Chapel  Shiraz",
     price: 56,
     origin: "AU",
     quantity: "Bottle",
