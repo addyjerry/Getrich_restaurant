@@ -1,7 +1,7 @@
-import imnum1 from "../../assets/images/g3.png";
-import imnum2 from "../../assets/images/g1.png";
-import imnum3 from "../../assets/images/g2.png";
-import imnum4 from "../../assets/images/g5.png";
+import imnum1 from "../../assets/images/g3.webp";
+import imnum2 from "../../assets/images/g1.webp";
+import imnum3 from "../../assets/images/g2.webp";
+import imnum4 from "../../assets/images/g5.webp";
 
 export const laurels = [
   {

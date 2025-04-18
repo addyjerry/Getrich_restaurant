@@ -1,5 +1,79 @@
 .gallery {
   display: flex;
+  overflow: none;
+  margin-top: 2rem;
+  font-size: medium;
+  gap: 3rem;
+  padding: 0 3rem;
+}
+.gallery__text h1 {
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  color: rgba(220, 202, 135, 1);
+  margin-top: -8px;
+}
+.gallery__text h2 {
+  font-family: Cormorant Upright;
+  margin-bottom: -5px;
+}
+.gallery__text img {
+  width: 41px;
+}
+.gallery__text p {
+  font-weight: 400;
+  font-family: Open Sans;
+  letter-spacing: 4%;
+  color: rgba(170, 170, 170, 1);
+}
+.gallery__images {
+  display: flex;
+  gap: 5px;
+}
+
+.gallery__images img {
+  width: 201px;
+  height: 347px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .gallery {
+    display: block;
+    text-align: center;
+  }
+  .gallery__text h1 {
+    font-size: 2rem;
+  }
+  .gallery__images {
+    display: block;
+  }
+
+  .gallery__images img {
+    width: 311px;
+    height: 347px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .gallery {
+    display: block;
+    text-align: center;
+  }
+  .gallery__text h1 {
+    font-size: 2rem;
+  }
+  .gallery__images {
+    display: block;
+    padding: 5rem 0;
+  }
+
+  .gallery__images img {
+    width: 311px;
+    height: 347px;
+    margin-left: -1.2rem;
+  }
+}
+
+.gallery {
+  display: flex;
   overflow: hidden;
   margin-top: 2rem;
 }

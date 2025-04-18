@@ -1,111 +1,208 @@
+.newsletter h1 {
+  font-family: Cormorant Upright;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(220, 202, 135, 1);
+  margin-top: -8px;
+  justify-content: center;
+}
+.newsletter h2 {
+  font-family: Cormorant Upright;
+  margin-bottom: -8px;
+}
+.newsletter img {
+  width: 41px;
+}
+.newsletter p {
+  font-weight: 400;
+  font-family: Open Sans;
+  letter-spacing: 4%;
+  color: rgba(170, 170, 170, 1);
+}
+.below {
+  display: flex;
+  gap: 3.5rem;
+  text-align: center;
+  place-content: center;
+  font-size: medium;
+  padding: 0 5rem;
+}
+.contact__us h2 {
+  font-family: Cormorant Upright;
+}
 
-.newsletter h1{
-    font-family:Cormorant Upright ;
-    font-size: 90px;
-    font-weight: 700;
-    color: rgba(220, 202, 135, 1);
-    margin-top: -8px;
+.contact__us p {
+  font-weight: 400;
+  font-family: Open Sans;
+  letter-spacing: 4%;
+  color: rgba(170, 170, 170, 1);
+}
 
+.newsletter {
+  text-align: center;
+  background-color: black;
+  border: 1px solid rgb(95, 95, 95);
+  padding: 5rem 9rem;
+  place-self: center;
+  margin: 0 2rem;
 }
-.newsletter h2{
-    font-family: Cormorant Upright;
-}
-.newsletter img{
-    width: 61px;
-    height: 7px;
-}
-.newsletter p{
-    font-weight: 400;
-    font-family: Open Sans;
-    letter-spacing: 4%;
-    color: rgba(170, 170, 170, 1);
+.newsletter input {
+  width: 20rem;
+  height: 8px;
+  font-size: large;
 
+  padding: 13px;
+  background-color: black;
+  color: white;
+  margin: 3px;
 }
-.below{
+.social {
+  width: 16rem;
+}
+.social h1 {
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  color: rgba(220, 202, 135, 1);
+  margin-top: 1rem;
+}
+.social p {
+  color: rgba(170, 170, 170, 1);
+}
+.social img {
+  width: 41px;
+}
+.top {
+  display: block;
+  color: rgb(129, 108, 33);
+  font-size: large;
+  place-self: center;
+  position: relative;
+  right: -50%;
+  margin-left: 2rem;
+}
+.top h5 {
+  background-color: rgb(99, 81, 15);
+  height: 5rem;
+  margin-top: -5rem;
+  width: 2px;
+  margin-left: 1rem;
+}
+.time h2 {
+  font-family: Cormorant Upright;
+}
+.time p {
+  line-height: normal;
+  margin-top: -7px;
+  color: rgba(170, 170, 170, 1);
+}
+footer p {
+  text-align: center;
+}
+footer {
+  margin-top: 0rem;
+  background-image: url("../../assets/images/back.webp");
+
+  place-content: center;
+  gap: 5px;
+  position: relative;
+}
+footer .ontop {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+#cop {
+  text-align: center;
+  margin-left: 7rem;
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .newsletter h1 {
+    font-size: 2rem;
+  }
+  .below {
     display: flex;
-    gap: 12rem;
+    gap: 2rem;
     text-align: center;
-}
-.contact__us h2{
-    font-family: Cormorant Upright;
-}
-
-.contact__us p{
-    font-weight: 400;
-    font-family: Open Sans;
-    letter-spacing: 4%;
-    color: rgba(170, 170, 170, 1);
-
-}
-
-
-
-
-.newsletter{
+  }
+  .newsletter {
     text-align: center;
-    background-color: black;
-    border: 1px solid rgb(95, 95, 95);
-    padding: 5rem;
-    place-self: center;
-    margin: 0 4rem;
-}
-.newsletter input{
-    width: 35rem;
+    padding: 0rem;
+    margin: 8px;
+  }
+  .newsletter input {
+    width: 20rem;
     height: 2rem;
-    font-size: larger;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    margin: 3rem;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+  }
+  .social h1 {
+    font-size: medium;
+  }
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 31rem;
+  }
+  .top {
+    display: none;
+  }
 }
-.social h1{
-    font-family:Cormorant Upright ;
-    font-size: 90px;
-    font-weight: 700;
-    color: rgba(220, 202, 135, 1);
-    margin-top: -8px;
-}
-.social p{
-    color: whitesmoke;
-}
-.social img{
-    width: 61px;
-    height: 7px;
-}
-
-
-.time h2{
-    font-family: Cormorant Upright;
-}
-.time p{
-    color: w;
-}
-
-@media screen and (max-width:600px) {
-    .newsletter h1{
-
-        font-size: 2rem;    
-    }
-    .below{
-        display: block;
-       
-    }
-    .newsletter{
-        text-align: center;
-        padding: 0rem;
-        margin: 8px;
-    }
-    .newsletter input{
-        width: 20rem;
-        height: 2rem;
-        font-size: medium;
-        padding: 5px;
-       
-         margin: 5px;
-    }
-    .social h1{
-  
-        font-size: 3rem;
- 
-    }
+@media screen and (max-width: 600px) {
+  .newsletter h1 {
+    font-size: medium;
+  }
+  .below {
+    display: block;
+    text-align: center;
+  }
+  .newsletter {
+    text-align: center;
+    padding: 0rem;
+    margin: 38px;
+  }
+  .newsletter input {
+    width: 17rem;
+    height: 2rem;
+    font-size: medium;
+    padding: 5px;
+    margin: 5px;
+  }
+  .social {
+    text-align: center;
+    width: 98%;
+  }
+  .social h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .time p {
+    line-height: normal;
+    margin-top: 0px;
+    color: rgba(170, 170, 170, 1);
+  }
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem 3rem;
+  }
+  .top {
+    display: none;
+  }
+  footer .ontop {
+    padding: 0 1rem;
+  }
+  #cop {
+    text-align: center;
+    margin-left: 0rem;
+  }
 }

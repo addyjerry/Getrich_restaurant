@@ -1,15 +1,17 @@
 import React from "react";
 import "./Special.css";
-import bottle from "../../assets/images/bottle.png";
+import bottle from "../../assets/images/bottle.webp";
 import Button from "../Button/Button";
 import { Wines, cocktails } from "../data/index";
 import CocktailCard from "./CocktailCard";
 import WineCard from "./WineCard";
+import key from "../../assets/images/spoon.webp";
 
 const Special = () => {
   return (
-    <div className="Special">
+    <section className="Special" id="Special">
       <h2>Menu That Fits Your Palatte </h2>
+      <img src={key} alt="spoon" id="spoon" />
       <h1>Today's Special</h1>
       <div className="main__special">
         <div className="special__side">
@@ -43,9 +45,9 @@ const Special = () => {
         </div>
       </div>
       <div id="special__button">
-        <Button chidren={"Know More"} />
+        <Button>Know More</Button>
       </div>
-    </div>
+    </section>
   );
 };
 

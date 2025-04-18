@@ -1,68 +1,171 @@
 .about__us {
-  background-image: url("../../assets/images/back.png");
+  background-image: url("../../assets/images/back.webp");
   background-repeat: no-repeat;
-  background-size: contain;
-  display: block;
-  height: 959px;
+  background-size: auto;
+  position: relative;
+  padding: 10px 8px;
+  place-items: center;
+}
+.about__us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
 }
 .features__about {
   padding: 2rem;
 }
 #golf {
   place-self: center;
-  z-index: 1;
 }
 #golf img {
-  width: 391px;
-  height: 415px;
+  width: 288px;
+  height: 306px;
   padding: 10rem;
-  position: static;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -4%);
 }
-.on__top {
+.about__us .on__top {
+  position: relative;
   z-index: 2;
   place-self: center;
   display: inline-flex;
   gap: 5rem;
-  padding: 10rem;
-  transform: translateY(-84%);
+  padding: 2rem 8rem;
 }
 .left {
-  margin-top: 10rem;
+  margin-top: 5rem;
+  text-align: right;
 }
+.left img {
+  width: 41px;
+  transform-origin: left;
+  transform: rotate(-180deg);
+  margin-right: -2rem;
+}
+
 .left h2 {
   font-family: Cormorant Upright;
   color: rgba(220, 202, 135, 1);
   font-size: 4rem;
+  margin-bottom: -5px;
 }
 .left p {
   font-family: Open Sans;
   color: rgba(170, 170, 170, 1);
 }
-.center img {
-  height: 703px;
-  width: 84px;
-  padding: 2rem;
+.right {
+  margin-top: 5rem;
+  text-align: left;
 }
-@media screen and (max-width: 600px) {
-  #golf img {
-    width: 150px;
-    height: 150px;
-    position: static;
-  }
+.right img {
+  width: 41px;
+}
+.right h2 {
+  font-family: Cormorant Upright;
+  color: rgba(220, 202, 135, 1);
+  font-size: 4rem;
+  margin-bottom: -5px;
+}
+.right p {
+  font-family: Open Sans;
+  color: rgba(170, 170, 170, 1);
+}
+.center img {
+  height: 576px;
+  width: 70px;
+  padding: 0rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
   .about__us {
     background-image: none;
-    transform: translateY(-5%);
-    width: 90vw;
+    position: relative;
+    display: block;
+    height: 959px;
+    margin-top: 15rem;
+  }
+  .about__us::before {
+    display: none;
+  }
+  .features__about {
+    padding: 2rem;
+  }
+  #golf {
+    place-self: center;
+    z-index: 1;
+  }
+  #golf img {
+    width: 211px;
+    height: 247px;
+    padding: 0rem;
+    position: absolute;
+  }
+  .about__us .on__top {
+    gap: 0px;
+    padding: 1rem 3rem;
+    transform: translateY(-35%);
+  }
+  .left {
+    margin-top: 8rem;
+    text-align: left;
+  }
+  .left h2 {
+    font-size: 2rem;
+  }
+  .left img {
+    width: 31px;
+    margin-left: 7rem;
+  }
+  .right img {
+    width: 31px;
+  }
+  .right {
+    margin-top: 8rem;
+    text-align: left;
+  }
+  .right h2 {
+    font-size: 2rem;
   }
 
-  .on__top {
+  .center img {
+    height: 500px;
+    width: 4.2em;
+    align-self: center;
+    padding: 6rem 8rem;
+  }
+  .features__about {
+    padding: 0rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about__us {
+    margin-top: 25rem;
+    background-image: none;
+    transform: translateY(0%);
+    width: 90vw;
+    padding: 0rem 2rem;
+    margin-bottom: -19rem;
+  }
+  .about__us::before {
+    display: none;
+  }
+  .about__us .on__top {
     z-index: 2;
-    place-self: center;
-    place-content: center;
     display: inline-block;
+    padding: 0rem 13rem;
+    transform: translateY(-40%);
+    margin-left: -1.3rem;
+  }
+  .left {
     text-align: center;
-    padding: 1rem;
-    transform: translateY(-85%);
+    margin-bottom: 3rem;
   }
 
   .left h2 {
@@ -70,7 +173,34 @@
     color: rgba(220, 202, 135, 1);
     font-size: 2rem;
   }
+  .left img {
+    width: 31px;
+    margin-left: 2rem;
+  }
+  .right img {
+    width: 31px;
+  }
+  .right {
+    text-align: center;
+  }
+  .right h2 {
+    font-family: Cormorant Upright;
+    color: rgba(220, 202, 135, 1);
+    font-size: 2rem;
+  }
   .center img {
-    height: 300px;
+    height: 500px;
+    width: 4.2em;
+    align-self: center;
+    padding: 0rem 8rem;
+  }
+  .features__about {
+    padding: 0rem;
+  }
+  #golf img {
+    width: 211px;
+    height: 247px;
+    padding: 0rem;
+    position: absolute;
   }
 }

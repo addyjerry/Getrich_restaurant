@@ -1,12 +1,12 @@
 import React from "react";
 import "./Video.css";
-import video from "../../assets/images/Video.png";
+import video from "../../assets/images/Video.webp";
 
 const Video = () => {
   return (
-    <div className="video">
+    <section className="video">
       <img src={video} alt="video" />
-    </div>
+    </section>
   );
 };
 

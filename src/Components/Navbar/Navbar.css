@@ -1,54 +1,122 @@
-.navbar{
-    padding:  1rem;
+.navbar {
+  padding: 1rem;
 }
-.navbar ul{
- display: flex;
- font-size: 16px;
- font-family: Open Sans;
- gap: 32px;
+.navbar ul {
+  display: flex;
+  font-size: 16px;
+  font-family: Open Sans;
+  gap: 42px;
 }
 
-.navbar ul li{
-    list-style: none;
+.navbar ul li {
+  list-style: none;
 }
-.menu{
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .navbar {
     display: none;
+  }
+
+  .menu {
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: block;
+    padding: 1.3rem;
+  }
+  .shortcut {
+    margin-top: -3.6rem;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    left: 0;
+    z-index: 9;
+    animation: slideDown 0.5s ease-in-out;
+    padding-top: 2rem;
+  }
+  @keyframes slideDown {
+    from {
+      top: -100%;
+      opacity: 0;
+    }
+    to {
+      top: 6%;
+      opacity: 1;
+    }
+  }
+  .shortcut ul {
+    padding-top: 2rem;
+    display: block;
+  }
+  .shortcut ul li {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    list-style: none;
+  }
+  #close {
+    text-align: right;
+    place-self: right;
+    position: absolute;
+    left: 86vw;
+  }
 }
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
 
-@media screen and (max-width:600px) {
-    
-    .navbar{
-       display: none;
-    }
-    .menu{
-        display: block;
-        padding: 1.3rem ;
-      
-    }
-    .shortcut{
-        background-color: black;
-        color: white;
-        width: 100vw;
-        height: 120vh;
-        position: fixed;
-        left: 0;
-        z-index: 9;
-    
+  .menu {
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: block;
+    padding: 1.3rem;
+  }
 
+  .shortcut {
+    margin-top: -2.6rem;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    left: 0;
+    top: -100%;
+    z-index: 9;
+    animation: slideDown 0.5s ease forwards;
+    padding-top: 2rem;
+  }
+  @keyframes slideDown {
+    from {
+      top: -100%;
+      opacity: 0;
     }
-    .shortcut ul{
-        display: block;
+    to {
+      top: 6%;
+      opacity: 1;
     }
-    .shortcut ul li{
-        text-align: center;
-        font-size: large;
-        padding: 1rem;
-        list-style: none;
-    }
-    #close{
-        text-align: right;
-        place-self:right ;
-        position: absolute;
-        left: 90vw;
-    }
+  }
+
+  .shortcut ul {
+    padding-top: 2rem;
+    display: block;
+  }
+  .shortcut ul li {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    list-style: none;
+  }
+  #close {
+    text-align: right;
+    place-self: right;
+    position: absolute;
+    left: 86vw;
+  }
 }

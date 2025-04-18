@@ -3,7 +3,7 @@ import React from "react";
 const AwardCard = ({ title, image, description, isAward }) => {
   return (
     <div>
-      {isAward || (
+      {!isAward && (
         <div className="laurel__group">
           <img src={image} alt="number" />
           <div className="main__laurel">

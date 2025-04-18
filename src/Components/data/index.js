@@ -1,7 +1,7 @@
 export const Wines = [
   {
     id: 1,
-    name: "Chapel Hill Shiraz",
+    name: "Chapel  Shiraz",
     price: 56,
     origin: "AU",
     quantity: "Bottle",
@@ -46,11 +46,16 @@ export const cocktails = [
 
   {
     id: 2,
-    name: "Dark 'N' Stormy",
+    name: "Dark'N'Stormy",
     price: 16,
     origin: "Dark rum | Ginger beer | Slice of lime",
   },
-  { id: 3, name: "Daiquiri", price: 10, origin: "Rum |Citrus juice | Sugar" },
+  {
+    id: 3,
+    name: "Daiquiri Spritz",
+    price: 10,
+    origin: "Rum |Citrus juice | Sugar",
+  },
   {
     id: 4,
     name: "Old Fashioned",
@@ -60,7 +65,7 @@ export const cocktails = [
   },
   {
     id: 5,
-    name: "Negroni",
+    name: "Negroni Spritz",
     price: 26,
     origin: "Gin | SweetVermouth | Campari | Orange garnish",
     quantity: "750 ml",

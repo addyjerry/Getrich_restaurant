@@ -1,85 +1,134 @@
 .Special {
- font-family:Cormorant Upright;
- color:rgba(255, 255, 255, 1)
+  font-family: Cormorant Upright;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 1rem;
+  padding: 4rem;
 }
-.Special h2{
-    text-align: center;
-    padding: 2px;
+.Special h2 {
+  text-align: center;
+  padding: 2px;
+  font-size: medium;
+  margin-bottom: -5px;
 }
-.Special h1{
+.Special h1 {
   font-size: 64px;
   font-weight: 600;
   color: rgba(220, 202, 135, 1);
   text-align: center;
   padding: 5px;
+  margin-top: -1.4rem;
 }
-.main__special{
+.main__special {
+  display: flex;
+  place-self: center;
+  place-content: center;
+}
+.special__side {
+  display: block;
+}
+
+.special__side span .letters {
+  color: rgba(220, 202, 135, 1);
+  font-size: 23px;
+  font-weight: 700;
+}
+#line {
+  width: 119px;
+  height: 1px;
+  margin-top: 1.2rem;
+  background-color: rgba(250, 250, 250, 1);
+}
+.special__side span {
+  display: inline-flex;
+  gap: 20px;
+}
+.special__side h3 {
+  margin-top: 5px;
+  color: rgba(220, 202, 135, 1);
+}
+#mon {
+  color: white;
+}
+.under {
+  color: rgba(250, 250, 250, 1);
+}
+.special__center img {
+  width: 382px;
+  height: 570px;
+  padding: 0px 38px;
+  margin-top: -2rem;
+}
+#special__button {
+  place-self: center;
+  text-align: center;
+}
+#spoon {
+  width: 41px;
+  margin-left: 38rem;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .Special h2 {
+    text-align: center;
+    padding: 0px;
+    font-size: small;
+    margin-bottom: 5px;
+  }
+  .Special h1 {
+    font-size: 30px;
+    margin-top: 1rem;
+  }
+  .Special {
+    margin-top: -30rem;
+    padding: 0px 3rem;
+    font-size: small;
+  }
+  .main__special {
     display: flex;
     place-self: center;
     place-content: center;
-}
-.special__side{
-    display: block;
+    gap: 5px;
+  }
+  #line {
+    width: 29px;
+  }
+  .special__center img {
+    width: 212px;
+    height: 260px;
+    padding: 2px;
+    margin-top: 6rem;
+  }
+  #spoon {
+    width: 31px;
+    margin-left: 20rem;
+  }
 }
 
-.special__side span .letters{
-    color: rgba(220, 202, 135, 1);
-    font-size: 23px;
-    font-weight: 700;
-}
-#line{
-    width: 119px;
-    height: 1px;
-    margin-top: 1.2rem;
-    background-color: rgba(250, 250, 250, 1);
-}
-.special__side span{
-    display: inline-flex;
-    gap: 20px;
-}
-.special__side h3{
-    margin-top: 5px;
-}
-.under{
-    color: rgba(250, 250, 250, 1);
-}
-.special__center img{
-    width: 412px;
-    height: 660px;
-    padding: 8px;
-}
-#special__button{
-    place-self: center;
+@media screen and (max-width: 600px) {
+  .Special h2 {
     text-align: center;
-
-}
-
-@media screen and (max-width:600px) {
-    .Special h2{
-        text-align: center;
-        padding: 2px;
-        font-size: 2rem;
-    }
-    .Special h1{
-        font-size: 30px;
-        
-    }
-    .Special{
-        text-align: center;
-    }
-    .main__special{
-        display: block;
-        place-self: center;
-        place-content: center;
-    }
-    #line{
-        width: 29px;
-     
-    }
-    .special__center img{
-        width: 212px;
-        height: 260px;
-        padding: 2px;
-    }
-    
+    padding: 0px;
+    font-size: small;
+  }
+  .Special h1 {
+    font-size: 30px;
+  }
+  .Special {
+    text-align: center;
+    padding: 5px 1rem;
+    margin-top: 0rem;
+  }
+  .main__special {
+    display: block;
+    place-self: center;
+    place-content: center;
+  }
+  #line {
+    width: 29px;
+  }
+  .special__center img {
+    width: 212px;
+    height: 260px;
+    padding: 2px;
+  }
 }

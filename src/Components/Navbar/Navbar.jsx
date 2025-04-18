@@ -1,41 +1,66 @@
-import { useState } from 'react'
-import React  from 'react'
-import './Navbar.css'
-import {AlignJustify,X} from 'lucide-react'
+import { useState } from "react";
+import React from "react";
+import "./Navbar.css";
+import { AlignJustify, X } from "lucide-react";
 
 const Navbar = () => {
-
-  const [menu,setMenu] = useState(false);
-  const handleMenu =()=>{
-    setMenu(!menu)
+  const [menu, setMenu] = useState(false);
+  const handleMenu = () => {
+    setMenu(!menu);
   };
   return (
-    <>
-    <div className='navbar'>
+    <nav>
+      <div className="navbar">
         <ul>
-            <li>Home</li>
-            <li>Pages</li>
-            <li>Contact us</li>
-            <li>Blog</li>
-            <li>Landing</li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#Special">Menu</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact us</a>
+          </li>
+          <li>
+            <a href="#about_us">About</a>
+          </li>
+          <li>
+            <a href="#chef">Chef</a>
+          </li>
         </ul>
-    </div>
-    <div className="menu">
-      { menu?  <div className="shortcut">
-       <X   onClick={handleMenu} id='close'/>
-        <ul>
-            <li onClick={handleMenu}>Home</li>
-            <li onClick={handleMenu}>Pages</li>
-            <li onClick={handleMenu}>Contact us</li>
-            <li onClick={handleMenu}>Blog</li>
-            <li onClick={handleMenu}>Landing</li>
-        </ul>
-      </div> :<AlignJustify onClick={handleMenu}/>
-      }
-   
-    </div>
-    </>
-  )
-}
+      </div>
+      <div className="menu">
+        {menu ? (
+          <div className={`shortcut `}>
+            <X onClick={handleMenu} id="close" />
+            <ul>
+              <li onClick={handleMenu}>
+                {" "}
+                <a href="/">Home</a>
+              </li>
+              <li onClick={handleMenu}>
+                {" "}
+                <a href="#Special">Menu</a>
+              </li>
+              <li onClick={handleMenu}>
+                {" "}
+                <a href="#Contact">Contact us</a>
+              </li>
+              <li onClick={handleMenu}>
+                <a href="#about_us">About</a>
+              </li>
+              <li onClick={handleMenu}>
+                {" "}
+                <a href="#chef">Chef</a>
+              </li>
+            </ul>
+          </div>
+        ) : (
+          <AlignJustify onClick={handleMenu} />
+        )}
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
