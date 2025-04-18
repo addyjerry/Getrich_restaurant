@@ -1,15 +1,15 @@
 import React from "react";
-import key from "../../assets/images/spoon.webp";
+import key from "../../assets/images/spoon.png";
 import Button from "../Button/Button";
 import "./Gallery.css";
-import pack1 from "../../assets/images/pack1.webp";
-import pack2 from "../../assets/images/pack2.webp";
-import pack3 from "../../assets/images/pack3.webp";
-import pack4 from "../../assets/images/pack4.webp";
+import pack1 from "../../assets/images/pack1.png";
+import pack2 from "../../assets/images/pack2.png";
+import pack3 from "../../assets/images/pack3.png";
+import pack4 from "../../assets/images/pack4.png";
 
 const Gallery = () => {
   return (
-    <section className="gallery">
+    <div className="gallery">
       <div className="gallery__text">
         <h2>Instagram</h2>
         <img src={key} alt="spoon" />
@@ -18,7 +18,7 @@ const Gallery = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt
           praesen
         </p>
-        <Button> View More</Button>
+        <Button chidren={" View More"} />
       </div>
       <div className="gallery__images">
         <img src={pack1} alt="pack" />
@@ -26,7 +26,7 @@ const Gallery = () => {
         <img src={pack3} alt="pack" />
         <img src={pack4} alt="pack" />
       </div>
-    </section>
+    </div>
   );
 };
 
