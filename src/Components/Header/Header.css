@@ -1,0 +1,45 @@
+#header {
+  display: inline-flex;
+  gap: 3rem;
+  padding: 8px 10px;
+  place-items: center;
+  justify-items: normal;
+}
+#header img {
+  width: 128px;
+  height: 37px;
+  padding: 1.5rem 3rem;
+}
+#log__area {
+  font-family: Open Sans;
+  padding: 2rem;
+  gap: 50px;
+  display: inline-flex;
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  #header {
+    gap: 67vw;
+  }
+  #header img {
+    height: 2.5rem;
+    width: 8rem;
+    padding: 1rem;
+  }
+  #log__area {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    gap: 8rem;
+  }
+  #header img {
+    height: 2.5rem;
+    width: 8rem;
+    padding: 1rem;
+  }
+  #log__area {
+    display: none;
+  }
+}
